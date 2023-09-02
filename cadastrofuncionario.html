@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro do Funcionário</title>
+</head>
+
+<body>
+    <header>
+        <div class="container.logo">
+            <div class="logo-imagem"><img class="logo-imagem" src="imagens/Inventelier_-removebg-preview.png" alt=""></div>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="inicial.html">Pagina Inicial</a></li>
+                <li><a href="perfil.html">Voltar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <form class="formulario2" action="" method="post">
+            <div>
+                <label for="NomeCompleto">Nome completo:</label>
+                <input type="text" name="NomeCompleto" id="NomeCompleto">
+            </div>
+
+            <div>
+                <label for="DataNascimento">Data de nascimento:</label>
+                <input type="date" name="DataNascimento" id="DataNascimento">
+            </div>
+
+            <div>
+                <label for="RG">RG:</label>
+                <input type="text" name="RG" id="RG" placeholder="00.000.000">
+            </div>
+
+            <div>
+                <label for="CPF">CPF:</label>
+                <input type="text" name="CPF" id="CPF" placeholder="000.000.000-00">
+            </div>
+
+            <div>
+                <label for="NumeroPIS">Número do PIS/NIS:</label>
+                <input type="text" name="NumeroPIS" id="NumeroPIS">
+            </div>
+
+            <div>
+                <label for="Telefone">Telefone:</label>
+                <input type="tel" name="Telefone" id="Telefone" placeholder="81 9 9999-9999">
+            </div>
+            <div>
+                <label for="CEP">CEP:</label>
+                <input type="cep" name="CEP" id="CEP" placeholder="54000-000">
+            </div>
+
+            <div>
+                <label for="Rua">Endereço:</label>
+                <input type="text" name="Rua" id="Rua">
+            </div>
+
+            <!--<div>
+                <label for="Bairro">Bairro:</label>
+                <input type="text" name="Bairro" id="Bairro">
+            </div>-->
+
+            <div>
+                <label for="Cidade">Cidade:</label>
+                <input type="text" name="Cidade" id="Cidade">
+            </div>
+
+            <div>
+                <label class="estado" for="Estado">Estado:</label>
+                <select name="" id="Estado">
+                    <option value="0">UF</option>
+                    <option value="1">AC</option>
+                    <option value="2">AL</option>
+                    <option value="3">AP</option>
+                    <option value="4">AM</option>
+                    <option value="5">BA</option>
+                    <option value="6">CE</option>
+                    <option value="7">DF</option>
+                    <option value="8">ES</option>
+                    <option value="9">GO</option>
+                    <option value="10">MA</option>
+                    <option value="11">MT</option>
+                    <option value="12">MS</option>
+                    <option value="13">MG</option>
+                    <option value="14">PA</option>
+                    <option value="15">PB</option>
+                    <option value="16">PR</option>
+                    <option value="17">PE</option>
+                    <option value="18">PI</option>
+                    <option value="19">RJ</option>
+                    <option value="20">RN</option>
+                    <option value="21">RS</option>
+                    <option value="22">RO</option>
+                    <option value="23">RR</option>
+                    <option value="24">SC</option>
+                    <option value="25">SP</option>
+                    <option value="26">SE</option>
+                    <option value="27">TO</option>
+                </select>
+            </div>
+
+            <!--<div>
+                <label for="Email">E-mail do funcionário:</label>
+                <input type="email" name="Email" id="Email">
+            </div>-->
+
+            <div>
+                <label for="Senha">Senha do funcionário:</label>
+                <input type="Password" name="Senha" id="Senha">
+            </div>
+                <div>
+                    <button onclick="alert('Cadastro realizado com sucesso')" class="botaoFuncionario">
+                        <a href="perfil.html">Salvar e prosseguir</a>
+                    </button>
+                </div>
+        </form>
+    </main>
+</body>
+<footer class="rodape">
+    <p>Site desenvolvido por &copy; Inventech.</p>
+</footer>
+
+</html>

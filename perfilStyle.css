@@ -1,0 +1,167 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagens/como-decorar-uma-loja-de-roupas-e1522869386918.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.formulario {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+input {
+    max-width: 14rem;
+    max-height: 25 rem;
+    border-radius: 10px;
+    text-align: center;
+}
+:root {
+    --cor-primaria-botão: rgb(7, 122, 176);
+    --cor-secundaria-botão: rgb(31, 91, 118);
+}
+header {
+    width: 100%;
+    background-color: #566981;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo-imagem {
+    width: 200px;
+    height: 100px;
+    background-color: #566981;
+    border-radius: 50px;
+    margin-left: 5px;
+
+}
+.container.logo {
+    display: flex;
+    align-items: center;
+}
+.menu li {
+    display: inline-block;
+    margin: 0 5px;
+    margin-right: 30px;
+}
+
+.menu li a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 8px 8px 8px 8px;
+}
+
+.menu li a:hover {
+    background-color: #04c9fa;
+    transition: background .8s;
+    padding: 8px 8px 8px 8px;
+    border-radius: 20px;
+    color: #2d3f56;
+
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.pedidos{
+    border: none;
+    padding: 50px 50px 50px 50px;
+    background-color: var(--cor-primaria-botão);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.pedidos a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.pedidos:hover{
+    background-color: var(--cor-secundaria-botão);
+}
+.addFuncionario{
+    border: none;
+    padding: 50px 50px 50px 50px;
+    background-color: var(--cor-primaria-botão);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.addFuncionario a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.addFuncionario:hover{
+    background-color: var(--cor-secundaria-botão);
+}
+.notificacoes{
+    border: none;
+    padding: 50px 50px 50px 50px;
+    background-color: var(--cor-primaria-botão);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.notificacoes a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.notificacoes:hover{
+    background-color: var(--cor-secundaria-botão);
+}
+.estoque{
+    border: none;
+    padding: 50px 50px 50px 50px;
+    background-color: var(--cor-primaria-botão);
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.estoque a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+.estoque:hover{
+    background-color: var(--cor-secundaria-botão);
+}
+
+.rodape {
+    color: white;
+    flex-shrink: 0;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #566981;
+    text-align: center;
+    border-radius: none;
+    box-shadow: 3px 3px 3px rgba(125, 124, 124, 0);
+    margin: none;
+    padding: 18px;
+}

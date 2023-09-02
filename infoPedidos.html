@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Novo Pedido</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container.logo">
+            <div class="logo-imagem"><img class="logo-imagem" src="imagens/Inventelier_-removebg-preview.png" alt=""></div>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="perfil.html">Pagina Inicial</a></li>
+                <li><a href="cadastroPedidoCliente.html">Voltar</a></li>
+                <li><a href="login.html">Sair</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+            <div>
+                <label class="pedido" for="Pedido">Tipo de pedido:</label>
+                <select name="" id="Pedido">
+                    <option value="0">Conserto</option>
+                    <option value="1">Costura</option>
+                </select>    
+            </div>
+            <div>
+                <label for="Busto">Busto:</label>
+            <input type="text" name="Busto" id="Busto">
+            </div>
+            <div>
+                <label for="Cintura">Cintura:</label>
+            <input type="text" name="Cintura" id="Cintura">
+            </div>
+            <div>
+                <label for="Quadril">Quadril:</label>
+                <input type="text" name="Quadril" id="Quadril">
+            </div>
+            <div>
+                <label for="Ombro">Ombro:</label>
+            <input type="text" name="Ombro" id="Ombro">
+            </div>
+            <div>
+                <label for="Comprimento1">Comprimento 1:</label>
+                <input type="text" name="Comprimento1" id="">
+            </div>
+            <div>
+                <label for="Comprimento2">Comprimento 2:</label>
+            <input type="text" name="Comprimento2" id="Comprimento2">
+            </div>
+            <div>
+                <label for="Comprimento3">Comprimento 3:</label>
+            <input type="text" name="Comprimento3" id="Comprimento3">
+            </div>
+            <div>
+                <label for="Comprimento4">Comprimento 4:</label>
+            <input type="text" name="Comprimento4" id="Comprimento4">
+            </div>
+            <div>
+                <label for="DataEntrega">Data prevista para entrega</label>
+                <input type="date" name="DataEntrega" id="DataEntrega">
+            </div>
+
+            <!--<div>
+                <a href="pedidos.html"><button class="salvarFinalizar">Salvar e Finalizar</button></a>
+            </div>-->
+
+            <div>
+                <button onclick="alert('Pedido realizado com sucesso')" class="salvarFinalizar">
+                    <a href="pedidosemandamento.html">Cadastrar</a>
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+<footer class="rodape">
+    <p>Site desenvolvido por &copy; Inventech.</p>
+</footer>
+
+</html>

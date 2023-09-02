@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro Usuário</title>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container.logo">
+            <div class="logo-imagem"><img class="logo-imagem" src="imagens/Inventelier_-removebg-preview.png" alt=""></div>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="inicial.html">Pagina Inicial</a></li>
+                <li><a href="perfil.html">Voltar</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <form action="" method="post">
+            <div>
+                <label for="NomeCompleto">Nome completo:</label>
+                <input type="text" name="NomeCompleto" id="NomeCompleto">
+            </div>
+            <div>
+                <label for="CNPJ ou CPF">Cnpj ou cpf:</label>
+                <input type="text" name="CNPJ ou CPF" id="CNPJ ou CPF">
+            </div>
+            <div>
+                <label for="NomeEmpresa">Nome da empresa:</label>
+                <input type="text" name="NomeEmpresa" id="NomeEmpresa">
+            </div>
+            <div>
+                <label for="Delivery">Possui um serviço de entrega?</label>
+                <select name="" id="SimNão">
+                    <option value="Sim">Sim</option>
+                    <option value="Não">Não</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="Email">E-mail</label>
+                <input type="email" name="Email" id="Email">
+            </div>
+            <div>
+                <label for="TipoEndereço">Tipo de endereço:</label>
+                <select name="" id="TipoEdereço">
+                    <option value="0"></option>
+                    <option value="1">Rua</option>
+                    <option value="2">Avenida</option>
+                    <option value="3">Travessa</option>
+                    <option value="4">Alameda</option>
+                    <option value="5">Praça</option>
+                    <option value="6">Beco</option>
+                    <option value="7">Rodovia</option>
+                    <option value="8">Largo</option>
+                    <option value="9">Vila</option>
+                    <option value="10">Quadra</option>
+                    <option value="11">Conjunto</option>
+                    <option value="12">Condomínio</option>
+                </select>
+            </div>
+            <div>
+                <label for="Endereço">Endereço:</label>
+                <input type="text" name="Endereço" id="Endereço">
+            </div>
+            <div>
+                <label for="CEP">CEP:</label>
+                <input type="cep" name="CEP" id="CEP" placeholder="54000-000">
+            </div>
+            <div>
+                <label for="Cidade">Cidade:</label>
+                <input type="text" name="Cidade" id="Cidade">
+            </div>
+            <div>
+                <label class="estado" for="Estado">Estado:</label>
+                <select name="" id="Estado">
+                    <option value="0">UF</option>
+                    <option value="1">AC</option>
+                    <option value="2">AL</option>
+                    <option value="3">AP</option>
+                    <option value="4">AM</option>
+                    <option value="5">BA</option>
+                    <option value="6">CE</option>
+                    <option value="7">DF</option>
+                    <option value="8">ES</option>
+                    <option value="9">GO</option>
+                    <option value="10">MA</option>
+                    <option value="11">MT</option>
+                    <option value="12">MS</option>
+                    <option value="13">MG</option>
+                    <option value="14">PA</option>
+                    <option value="15">PB</option>
+                    <option value="16">PR</option>
+                    <option value="17">PE</option>
+                    <option value="18">PI</option>
+                    <option value="19">RJ</option>
+                    <option value="20">RN</option>
+                    <option value="21">RS</option>
+                    <option value="22">RO</option>
+                    <option value="23">RR</option>
+                    <option value="24">SC</option>
+                    <option value="25">SP</option>
+                    <option value="26">SE</option>
+                    <option value="27">TO</option>
+                </select>
+            </div>
+
+            <!--<div>
+                <label for="Bairro">Bairro:</label>
+                <input type="text" name="Bairro" id="Número">
+            </div>-->
+
+            <div>
+                <button onclick="alert('Cadastro realizado com sucesso')" class="botaoCadastrarUsuario">
+                    <a href="inicial.html">Cadastrar</a>
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+<footer class="rodape">
+    <p>Site desenvolvido por &copy; Inventech.</p>
+</footer>
+
+</html>
